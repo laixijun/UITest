@@ -371,3 +371,5 @@
 2020-08-18 10:36:26,030 - myLogger - INFO - �����tag name���ġ�button��Ԫ��
 2020-08-18 10:36:28,040 - myLogger - INFO - �����<selenium.webdriver.remote.webelement.WebElement (session="5a1b58376aad3e903a0f8a731c651e26", element="8c91b7bf-bec5-4ad8-9503-53ca454fd511")>��Ԫ��
 2020-08-18 10:36:28,082 - myLogger - INFO - ���ص�ǰ����
+2020-10-10 17:02:47,940 - myLogger - INFO - 点击【你好】的【时间】元素
+2020-10-10 17:12:12,222 LoggerUtil.py [line:51] INFO 点击【你好】的【时间】元素

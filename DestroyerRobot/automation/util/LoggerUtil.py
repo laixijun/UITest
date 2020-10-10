@@ -36,7 +36,8 @@ class Log:
         console.setLevel(logging.DEBUG)
 
         # 定义handler的输出格式
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        # formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter('%(asctime)s %(filename)s [line:%(lineno)d] %(levelname)s %(message)s')
         log_file.setFormatter(formatter)
         console.setFormatter(formatter)
 
